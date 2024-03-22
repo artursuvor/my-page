@@ -6,9 +6,9 @@ const Header: React.FC = () => {
     return (
         <header>
             <div className="header-container">
-                <p>Home</p>
-                <p>About me</p>
-                <p>Portfolio</p>
+                <p className='Home'>Home</p>
+                <p className='About me'>About me</p>
+                <p className='Portfolio'>Portfolio</p>
             </div>  
         </header>
     );  
