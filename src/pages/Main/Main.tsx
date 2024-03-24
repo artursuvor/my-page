@@ -9,10 +9,10 @@ const Main: React.FC = () => {
       </div>
       <div className='home-page-text-about-me'>
         <p>Hi, I'm Artur</p>
-        <p>mail</p>
-        <p>TG</p>
-        <p>GH</p>
-        <p>LN</p>
+        <p className='home-text-tg'>mail</p>
+        <p className='home-text-tg'>TG</p>
+        <p className='home-text-tg'>GH</p>
+        <p className='home-text-tg'>LN</p>
       </div>
     </div>
   );
