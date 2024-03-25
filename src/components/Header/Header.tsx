@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Header.css';
 
 const Header: React.FC = () => {
@@ -6,9 +7,9 @@ const Header: React.FC = () => {
     return (
         <header>
             <div className="header-container">
-                <p className='Home'>Home</p>
-                <p className='About me'>About me</p>
-                <p className='Portfolio'>Portfolio</p>
+                <Link to={`/`}>Home</Link>
+                <Link to={`/about`}>About me</Link>
+                <Link to={`/portfolio`}>Portfolio</Link>
             </div>  
         </header>
     );  
